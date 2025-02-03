@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Phishing Detector",
+    "version": "1.0",
+    "description": "Detect phishing websites in real-time.",
+    "permissions": ["activeTab"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
